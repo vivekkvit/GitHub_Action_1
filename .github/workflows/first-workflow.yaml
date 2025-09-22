@@ -12,6 +12,6 @@ jobs:
           node -v
           npm -v
       - name: Testing Error
-        run: ps -ef grep -i network
+        run: ps -ef |grep -i network
     
 
