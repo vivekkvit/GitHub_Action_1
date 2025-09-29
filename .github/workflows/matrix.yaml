@@ -12,5 +12,5 @@ jobs:
       - run: node -v
       - uses: actions/setup-node@v3
         with:
-          node-version: 13
+          node-version: ${{ matrix.node-version }}
       - run: node -v
